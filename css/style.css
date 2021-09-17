@@ -1,0 +1,17 @@
+/* comon styleing  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+#header-area{
+    background: url(../img/bg-home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
