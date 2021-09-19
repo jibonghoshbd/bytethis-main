@@ -19,6 +19,7 @@
     font-family: inherit;
     font-size: 17px;
     transition: .5s;
+    text-transform: uppercase;
 }
 /*======= header area ========== */
 #header-area{
@@ -223,4 +224,43 @@
 .member-ifo .socail-icon i:hover{
     cursor: pointer;
     color: #34c6d3;
+}
+/* ==============pricing area ================= */
+#pricing-area {
+    margin: 50px 0px;
+}
+.pricing-wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.single-pricing {
+    border: 2px solid #34c6d3;
+    padding: 50px 80px;
+    text-align: center;
+}
+.pricing-btn {
+    padding: 5px 15px;
+    border: none;
+    background:#34c6d3;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: inherit;
+    margin-bottom: 20px;
+}
+.price h1 {
+    margin: 20px 0px;
+    font-size: 50px;
+}
+.price span {
+    font-size: 20px;
+}
+.price-content p {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.price-content p:last-child{
+    margin-bottom: 30px;
 }
