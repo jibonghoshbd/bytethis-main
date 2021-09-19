@@ -162,3 +162,27 @@
     background: #34c6d3;
     cursor: pointer;
 }
+/*============== work section ============== */
+#work-section{
+    margin-bottom: 50px;
+}
+.works-img-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+}
+.work-img img {
+    width: 100%;
+    height: 100%;
+}
+.work-img{
+    overflow: hidden;
+}
+.work-img img{
+    transition: 1s;
+    perspective: 1000px;
+}
+.work-img:hover img {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
