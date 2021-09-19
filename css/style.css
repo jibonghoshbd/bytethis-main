@@ -186,3 +186,41 @@
     transform: scale(1.5);
     cursor: zoom-in;
 }
+/*============= our team area ================= */
+.team-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    text-align: center;
+    margin: 20px 0;
+}
+.member-img img {
+    width: 350px;
+    transition: .5s;
+}
+.member-img {
+    overflow: hidden;
+}
+.member-img img:hover {
+    transform: scale(1.2);
+    cursor: zoom-in;
+}
+.member-ifo h3 {
+    margin: 15px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.member-ifo h4 {
+    margin: 15px;
+    color: #34c6d3;
+}
+.member-ifo .socail-icon i {
+    color: #636e72;
+    margin-right: 15px;
+    font-size: 18px;
+    transition: .5s;
+}
+.member-ifo .socail-icon i:hover{
+    cursor: pointer;
+    color: #34c6d3;
+}
