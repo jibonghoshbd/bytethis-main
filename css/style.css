@@ -278,3 +278,10 @@
     margin-bottom: 30px;
 }
 /* ===============improving area ================= */
+#improving-area {
+    background: #000;
+    margin: 50px 0px;
+}
+.improving-title {
+    color: #fff;
+}
