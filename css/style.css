@@ -261,6 +261,20 @@
     margin-bottom: 20px;
     font-weight: 400;
 }
-.price-content p:last-child{
+.price-content p:last-child {
     margin-bottom: 30px;
 }
+.pricing-bg{
+    background:#34c6d3;
+}
+.enterprice-btn{
+    background: #fff;
+    color: #34c6d3;
+}
+.pricing-bg .price-content p {
+    color: #fff;
+}
+.pricing-bg .price-content p:last-child {
+    margin-bottom: 30px;
+}
+/* ===============improving area ================= */
