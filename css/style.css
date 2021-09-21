@@ -306,3 +306,77 @@
     font-size: 20px;
     font-weight: 200;;
 }
+/*========== contactUs area ============= */
+#contact-us {
+    background: url(../img/world-map.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    border: 3px solid #718093;
+    background-color: #41464b;
+    padding: 50px 0px;
+}
+.left-area{
+    width: 50%;
+    margin-right: 20px;
+}
+.contact-area {
+    display: flex;
+    justify-content: space-between;
+}
+.bytethis h2,
+.headquarters h2,
+.right-area h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.bytethis,
+.headquarters,
+.socail-contact {
+    margin-bottom: 20px;
+}
+.socail-contact p {
+    font-weight: 400;
+}
+.contact-socal-icon i {
+    margin-right: 20px;
+    font-size: 20px;
+    transition: .5s;
+}
+.contact-socal-icon i:hover{
+    color:#34c6d3;
+    cursor: pointer;
+}
+.right-area {
+    width: 50%;
+    padding: 20px;
+}
+.right-area input, textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.right-area button {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    background: transparent;
+    color:#fff;
+    transition: .5s;
+}
+.right-area button:hover{
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
